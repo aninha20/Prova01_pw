@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+body{
+    margin:0px; /*define a margem da página*/
+    font-family: 'Merriweather', serif;
+    color:#002B5B;
+}
+ul{
+    list-style:none; /*retira os marcadore da lista*/
+    font-weight: bold; /*deixa a palavra em negrito*/
+}
+nav img{
+    width: 50px;
+    height: 40px;
+    border-radius: 0px;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:#002B5B;
+}
+/*button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background-color: #89375F;
+    color: white; /*muda a cor do texto dentro do botão
+}*/
+header{
+    background: no-repeat center/cover url("https://www.fatosdesconhecidos.com.br/wp-content/uploads/2016/07/Austr%C3%A1lia-10-scaled.jpg");
+    height: calc(100vh - 100px);
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between; /*alinha pro lado direito*/
+    margin:auto 90px;
+    text-align: center;
+    /*background: #BACDDB;*/
+}
+header nav ul{
+    display: flex;
+}
+nav h1{
+    border-radius: 50px;
+    background-color: #91C788;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+header nav ul li{
+    margin: 0 15px;/*quero que a margin seja 0 e e distância de 15 px de cada elemento da lista*/
+    border-radius: 25px;
+    background-color: #91C788;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+header nav p{
+     font-weight: bold;
+}
+.header-content{
+    max-width:400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content h1{
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.header-content p{
+    color: #FEFFDE;
+}
+.informacao {
+    background: #159895;
+    padding: 85px;
+}
+
+.informacao .info-title{
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 2rem;
+}
+
+.informacao .info-card{
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.informacao .card-image{
+    width: 260px;
+    height: 200px;
+    border-radius: 0 24px;
+}
+
+.informacao .card {
+    width: 260px;
+    height: 470px;
+    background: white;
+    border-radius: 24px;
+    margin: 25px;
+    position: relative;
+}
+.informacao .card-content{
+    padding: 0 15px;
+
+}
+.informacao .card-content p {
+    padding: 0 15px;
+    text-align: center;
+    color: #1A5F7A;
+}
+
+.informacao .card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.informacao .card-content ul li{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: #89375F;
+    font-weight: bold;
+}
+
+.informacao .card-content li svg{
+    width: 15px;
+    height: 16px;
+    margin-right: 15px;
+}
+
+.informacao .card-content h1{
+    font-size: 1rem;
+}
+
+.informacao .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    background: #89375F;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+.informacao .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #89375F;
+    border-radius: 0px 8 8 0px;
+    padding: 5px 10px;
+}
+
+.informacao .card .card-tag p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.curiosidade {
+    padding: 35px;
+    background: #BACDDB;
+    padding-bottom: 90px;
+
+}
+
+.curiosidade .curiosidade-title{
+    text-align: center;
+    margin: 35px 0;    
+    
+  
+}
+
+.curiosidade .curiosidade-cards{
+    margin-top: 250px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+}
+
+.curiosidade .card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.curiosidade .card p {
+    color: #393646;
+    text-align: center;
+}
+
+.curiosidade .card .card-content{
+    height: 180px;
+}
+
+.contatos {
+    text-align: center;
+    padding: 15px;
+    background: #57C5B6;
+}
+.contatos h2 {
+    padding-top: 30px;
+}
+
+.contatos p{
+    padding-bottom: 30px;
+}
+.contatos-icons {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding: 40px;
+}
+
+.contatos-icons svg:hover {
+    stroke: #002B5B;
+    transform: scale(1.5);
+}
+.contatos .mail{
+    padding: 40px;
+    color: #77037B;
+    
+}
+
+.contatos .twitter{
+    padding: 40px;
+    color: #66347F;
+}
+
+.contatos .face{
+    padding: 40px;
+    color: #9E4784;
+}
+
+.contatos .instagram{
+    padding: 40px;
+    color: #D27685;
+}
+.contatos .phone{
+    padding: 40px;
+    color: #CE5959;
+}
+
